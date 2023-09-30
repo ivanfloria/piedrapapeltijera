@@ -1,0 +1,29 @@
+
+.button{
+    padding: 15px;
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.button:hover{
+    box-shadow: 3px 5px 8px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 540px) {
+    .button{
+        font-size: 1.5em;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .button{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
